@@ -27,6 +27,7 @@ position: absolute;
 transition-duration: 0.4s;
 border-radius: 4px;
 padding: 2%;
+
 }
 
 .button1:hover{
@@ -42,13 +43,12 @@ padding: 2%;
     background-color:rgba(30, 159, 55, 0.724);
     transition-duration: 0.4s; 
     padding: 2%;
-    position: static,;
     border-radius: 4px; 
     text-align: center;
-    position:absolute;
     width: 10%;
-    right: 30px;
+    right: 100px;
     text-decoration: none;
+    position: absolute;
 }
 
 .button2:hover{
@@ -58,7 +58,7 @@ padding: 2%;
 }
 
 .pic{
-    max-width: 100%;
-    left: 100vh;
+    max-width: 30%;
+    left: 50vh;;
     height: auto;
 }

@@ -1,6 +1,6 @@
 function handleClick() {
     var weather = document.querySelector("#list") 
-    weather.innerHTML = "Today i dont know the weather,sorry"
+    weather.innerHTML = "1: Why do you think i schould know it? Ask next button please-->"
 }
 
 function handleClick1() {
@@ -8,7 +8,7 @@ function handleClick1() {
 
     var listItem = document.createElement("li")
 
-          listItem.innerHTML =  "Sorry I dont know the weather today"
+          listItem.innerHTML =  "2:Sorry I dont know the weather today. Ask next button please-->"
           
 
     

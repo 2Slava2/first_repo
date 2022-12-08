@@ -8,7 +8,8 @@ function handleClick1() {
 
     var listItem = document.createElement("li")
 
-          listItem.innerHTML = "Sorry I dont know the weather today"
+          listItem.innerHTML =  "Sorry I dont know the weather today"
+          
 
     
     list.append(listItem)

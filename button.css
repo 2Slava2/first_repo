@@ -9,15 +9,17 @@
 
 .button{
     width:15%;
-    height:8vh;
+    height:10vh;
     border-radius: 8px;
-    background-color:rgba(7, 255, 57, 0.724);
-    transition-duration: 0.4s;  
+    background-color:rgb(255, 172, 7);
+    transition-duration: 0.4s; 
+    color:rgb(251, 255, 5); 
 }
 
 .button:hover{
-  background-color:rgb(255, 140, 140);
+  background-color:rgba(130, 243, 64, 0.84);
   cursor: pointer;
+  color: rgb(255, 0, 255);
 }
   
 .button1{
@@ -25,9 +27,10 @@ background-color: rgb(227, 36, 227);
 color:rgb(232, 255, 23);
 position: absolute;
 transition-duration: 0.4s;
-border-radius: 4px;
+border-radius: 8px;
 padding: 2%;
-
+width: 10%;
+height: 10vh;
 }
 
 .button1:hover{
@@ -37,28 +40,30 @@ padding: 2%;
 }
 
 .button2{
-    width:15%;
-    height:8vh;
+    width:10%;
+    height:5vh;
     border-radius: 8px;
-    background-color:rgba(30, 159, 55, 0.724);
+    background-color:rgba(71, 206, 41, 0.765);
     transition-duration: 0.4s; 
     padding: 2%;
-    border-radius: 4px; 
+    border-radius: 8px; 
     text-align: center;
     width: 10%;
     right: 100px;
     text-decoration: none;
     position: absolute;
+    color: rgb(255, 0, 98);
 }
 
 .button2:hover{
-    background-color:rgb(98, 101, 53);
+    background-color:rgb(115, 121, 32);
     cursor: pointer;
-    color:blue;
+    color:rgb(0, 255, 247);
 }
 
 .pic{
-    max-width: 30%;
+    max-width: 100%;
     left: 50vh;;
     height: auto;
+    width: 50%;
 }
